@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Please fill this Form ! </h1>
+    <form class ="myform" >
+    <input type="text" id="name" placeholder="name"><br>
+    <input type="text" id ="last-name" placeholder="l.name"><br>
+    <input type="email" id ="e-mail" placeholder="e-mail" ><br>
+    <input type="password" id="current-password" placeholder="**********" >
+    <input type="checkbox" id="show-hide" onclick="Toggle()" >Show/Hide<br>
+    <button id="send" onclick="checkEmail()"> Send </button>
+    <button id="reset" value="reset form" onclick="reset()">Reset</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
